@@ -62,7 +62,7 @@ vim.opt.termguicolors = true
 vim.opt.clipboard = "unnamedplus"
 
 -- treesitter
-require'nvim-treesitter.configs'.setup {
+require'nvim-treesitter'.setup {
   ensure_installed = { "go" },
   highlight = { enable = true },
   indent = { enable = true },
